@@ -9,32 +9,37 @@ export default function Page() {
         <div className={styles.containerContent}>
         <div>
           <div>
-            <h1>Titulo</h1>
-            <p>Descripcion</p>
+            <p>Descripcion: Esta es una pagina de prueba</p>
           </div>
+          <br></br>
+          <br></br>
+
           <div className={styles.cardslayout}>
-            <p>Card 1 </p>
+            <div className= {styles.cardDiv}>
+              <h1 className={styles.headerCard}>
+                Card 1
+              </h1>
+              <p>Description 1</p>
+            </div>
+
+            <div className= {styles.cardDiv}>
+            <h1 className={styles.headerCard}>
+                Card 2
+              </h1>
+              <p>Description 2</p>
+            </div>
+
+            <div className= {styles.cardDiv}>
+            <h1 className={styles.headerCard}>
+                Card 3
+              </h1>
+              <p>Description 3</p>
+            </div>
           </div>
-          <div className={styles.descripcard}>
-            <p>Descripcion 1</p>
-          </div>
-          <div className={styles.cardslayout}>
-            <p>Card 2 </p>
-          </div>
-          <div className={styles.descripcard}>
-            <p>Descripcion 2</p>
-          </div>
-          <div className={styles.cardslayout}>
-            <p>Card 3 </p>
-          </div>
-          <div className={styles.descripcard}>
-            <p>Descripcion 3</p>
-          </div>
-          
-         
+
           </div>
         </div>
       </div>
-    </>
-  )
+    </>
+  )
 }

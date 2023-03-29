@@ -5,18 +5,17 @@
 .containerMain{
     height: 100vh;
     width: 100%;
+    background-color: whitesmoke;
     color: black;
     display: flex;
-    justify-content: center;
 }
 .containerContent{
     color: black;
-    height: 70%;
-    width: 80%;
-    background-color: rgb(247, 255, 2);
-    border: solid black 1px;
+    background-color: yellowgreen;
+    height: 90%;
+    width: 90%;
+    border: solid black 5px;
     padding: 30px;
-
     text-align: center;
     display: flex;
     justify-content: center;
@@ -24,14 +23,27 @@
 }
 
 .cardslayout{
-    height: 100%;
-    width: 33%;
-    background-color: black;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    /*align-items:center;*/
+    width: 100%;
+    height: 100%;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
 }
-.descripcard{
-    height: 100%;
+
+.cardDiv{
     display: flex;
     justify-content: center;
+    align-items: center;
+    background-color: red;
+    height: 250px;
+    width: 350px;
+    border-radius: 15px;
+    flex-wrap: wrap;
+}
+
+.headerCard {
+    width: 100%;
+    background-color: aquamarine;
 }
