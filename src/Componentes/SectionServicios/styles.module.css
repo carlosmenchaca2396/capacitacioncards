@@ -14,6 +14,7 @@
     background-color: yellowgreen;
     height: 90%;
     width: 90%;
+
     border: solid black 5px;
     padding: 30px;
     text-align: center;
@@ -23,27 +24,15 @@
 }
 
 .cardslayout{
-    display: flex;
-    justify-content: space-around;
-    /*align-items:center;*/
-    width: 100%;
-    height: 100%;
+    width: 10%;
+    height: 10%;
     margin-bottom: 1rem;
     margin-left: 1rem;
-}
-
-.cardDiv{
-    display: flex;
     justify-content: center;
     align-items: center;
-    background-color: red;
-    height: 250px;
-    width: 350px;
+    height: 100px;
+    width: 100px;
     border-radius: 15px;
-    flex-wrap: wrap;
-}
-
-.headerCard {
-    width: 100%;
+    flex-wrap: wrap;width: 100%;
     background-color: aquamarine;
 }
